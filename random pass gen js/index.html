@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <form id="passwordForm">
+        <h1>Random Password Generator</h1>
+        <label for="passwordlength">Length</label>
+        <input type="number" id="passwordlength" min="5" >
+
+        <div class="check">
+            <label for="Lowercase">Include Lowercase?</label>
+            <input type="checkbox" name="Include" id="Lowercase">
+            <br>
+            <label for="Lowercase">Include Uppercase?</label>
+            <input type="checkbox" name="Include" id="Uppercase">
+            <br>
+            <label for="Lowercase">Include Numbers?</label>
+            <input type="checkbox" name="Include" id="Numbers">
+            <br>
+            <label for="Lowercase">Include Symbols?</label>
+            <input type="checkbox" name="Include" id="Symbols">
+        </div>
+        <button onclick="Generate()" id="generate">Generate</button>
+    </form>
+
+    <h3 id="result"></h3>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

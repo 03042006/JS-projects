@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    /* border: 2px solid black; */
+    /* height: 5rem; */
+    font-size: 5rem;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+    background-color: rgba(0, 136, 255, 0.66);
+    border: 0.01px solid black;
+    border-radius: 3px;
+    width: 8rem;
+    font-size: 1.6rem;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

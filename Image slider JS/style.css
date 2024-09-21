@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fade{
+    from{transform: translateX(50%);}
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    margin: auto;
+    overflow: hidden;
+    transition: all 2s ease;
+}
+.slides{
+    position: relative;
+    width: 400px;
+}
+.slides img{
+    width: 100%;
+    display: none;
+    transition: all 2s ease;
+}
+
+img.displayslide{
+    display: block;
+    transition: all ease;
+    animation: fade 0.5s;
+}
+
+.slides button{
+    width: 3rem;
+    font-size: 2rem;
+    border: none;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+}
+.slides .prevbtn{
+    left: 1%;
+}
+.slides .nextbtn{
+    right: 1%;
+}

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(219, 214, 214, 0.518);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 70vw;
+    height: 70vh;
+    margin: 30px auto;
+    padding: 2rem;
+    /* border: 2px solid black; */
+    background-color: white;
+    text-align: center;
+}
+h1{
+    color: rgb(144, 0, 255);
+    text-align: center;
+
+}
+#textbox{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 1.5rem;
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+}
+label{
+    font-size: 1.25rem;
+    font-weight: 550;
+    margin: 30px auto;
+}
+input[type=radio]{
+    margin: 10px auto;
+}
+button{
+    margin:10px auto;
+    background-color: red;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+}
+p{
+    font-size: 2rem;
+    font-weight: 600;
+}
